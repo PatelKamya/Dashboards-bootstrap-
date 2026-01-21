@@ -40,12 +40,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className='sidebar shadow' style={{ backgroundColor: 'blueviolet' }}>
-                <div className='fs-4'>
-                    slider
-                </div>
-
-            </div>
+   
         </div>
     )
 }
