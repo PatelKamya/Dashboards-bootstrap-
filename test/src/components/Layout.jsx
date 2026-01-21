@@ -1,21 +1,20 @@
 import React from 'react'
+import Slider from './Slider';
+import Header from './header';
 
 const Layout = ({ children }) => {
-    const [isSliderOpen, setIsSliderOpen] = useState(true);
     return (
         <div className=''>
+
             <Header />
-            <div className='main-container'>
-                <Slider isOpen={isSliderOpen} />
-                <main className='content'>
+            <div className="d-flex">
+                <Slider />
+                <main className="">
                     {children}
                 </main>
             </div>
-
-
-
-
         </div>
+        
     )
 }
 
