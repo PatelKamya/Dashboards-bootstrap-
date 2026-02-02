@@ -4,8 +4,8 @@ body {
 
 .main-container {
  display: flex;
- position: relative;
- margin-left: 20px;
+ margin-left: 10px;
+ margin-right: 10px ;
  width: 100%;
 
 
